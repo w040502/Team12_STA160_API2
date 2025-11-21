@@ -1,0 +1,21 @@
+# Ignore Python & OS files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# OS junk
+.DS_Store
+
+# PyCharm files
+.idea/
+
+# Large model artifact – DO NOT push 400 MB to GitHub
+airbnb_ensemble_artifacts.pkl
+airbnb_ensemble_artifacts.pkl
